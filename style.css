@@ -1,0 +1,49 @@
+body {
+    background: #09090b;
+    color: #fafafa;
+    font-family: sans-serif;
+    margin: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+.logo {
+    font-weight: bold;
+    color: #a855f7;
+    letter-spacing: 1px;
+}
+.links a {
+    color: #a1a1aa;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+h1 {
+    font-size: 3.5rem;
+    background: linear-gradient(to right, #ffffff, #a855f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+}
+p {
+    color: #a1a1aa;
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+}
+button {
+    background: #a855f7;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 14px rgba(168, 85, 247, 0.4);
+}
